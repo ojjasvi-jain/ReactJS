@@ -1,0 +1,47 @@
+<!-- Intro to raw React APIs -->
+<!-- 💯 nesting elements -->
+
+<!-- try to create a simple structure using raw React api 
+
+   <div class="parent">
+       <div class="child1" id="child1"> child 1 </div>
+       <div class="child2" id="child1"> child 2 </div>
+    <div> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script src="https://unpkg.com/react@18.1.0/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18.1.0/umd/react-dom.development.js"></script>
+
+    <script type="module">
+      const rootElement = document.getElementById("root");
+      const element = React.createElement("div", {
+        className: "parent",
+        children: [
+          React.createElement(
+            "div",
+            { className: "child1", id: "child1" },
+            "child 1"
+          ),
+          React.createElement(
+            "div",
+            { className: "child2", id: "child2" },
+            "child 2"
+          ),
+        ],
+      });
+
+      // reactDOM api is used to render on DOM
+      const reactDom = ReactDOM.createRoot(rootElement);
+      reactDom.render(element);
+    </script>
+  </body>
+</html>

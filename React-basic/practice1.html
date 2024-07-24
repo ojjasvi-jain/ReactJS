@@ -1,0 +1,27 @@
+<!-- Task to create a simple li element using vanilla JS code  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul id="root">
+      <li>list 1</li>
+      <li>list 1</li>
+    </ul>
+
+    <script type="module">
+      const rootElement = document.createElement("ul");
+      const liELement = document.createElement("ul");
+
+      liELement.innerText = "list 3";
+
+      rootElement.appendChild(liELement);
+
+      
+    </script>
+  </body>
+</html>
