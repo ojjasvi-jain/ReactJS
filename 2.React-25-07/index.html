@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- 1. react code   -->
+    <script src="https://unpkg.com/react@18.1.0/umd/react.development.js"></script>
+
+    <!-- how react code interate with real DOM / HTML  -->
+    <script src="https://unpkg.com/react-dom@18.1.0/umd/react-dom.development.js"></script>
+
+    <!-- babel script  -->
+    <script src="https://unpkg.com/@babel/standalone@7.12.4/babel.js"></script>
+
+    <script type="text/babel">
+      // document api - getElementById , querySelector , getELementByClass
+      const rootElement = document.getElementById("root");
+
+      // React - React.creatELment() // taking three paramenter
+      /**
+       *  which tag you want to create
+       *  what attribute you want to give - childeren
+       *  what is child element
+       *
+       */
+
+      // function component
+      // let Message = () => <div> hello everyone i am meeagae component </div>;
+
+      const element = React.createElement(
+        "h1",
+        {
+          className: "container",
+        },
+        "hello world"
+      );
+
+      // / jsx - React.creatElement
+      const element2 = (
+        <h1 className="container">
+          <h2 className="h2"> list of frontent tech stack </h2>
+          <ul>
+            <li>HTML </li>
+            <li>CSS</li>
+            <li>Javascript</li>
+          </ul>
+        </h1>
+      );
+
+      console.log("element", element);
+      console.log("element2", element2);
+
+      // this will append all our react code
+      ReactDOM.createRoot(rootElement).render(element2);
+      // reactDom.render(element);
+    </script>
+  </body>
+</html>
