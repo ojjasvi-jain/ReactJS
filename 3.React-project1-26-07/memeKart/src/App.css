@@ -1,0 +1,23 @@
+.card-wrapper {
+  width: 300px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+
+  border: 2px solid #555;
+  padding: 20px;
+
+  box-shadow: 5px 5px 10px #555;
+}
+
+.card-text {
+  font-size: 30px;
+  color: dodgerblue;
+}
+
+.wrapper {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
