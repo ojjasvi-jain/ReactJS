@@ -1,0 +1,31 @@
+.form-btn {
+  width: 180px;
+  height: 45px;
+  background: #fff;
+  font-size: medium;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px #555;
+  transition: all linear;
+}
+
+.form-btn:active {
+  box-shadow: 5px 5px 11px #555;
+}
+
+.form-cont {
+  display: flex;
+  gap: 100px;
+  border: 2px solid orange;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 240px;
+  height: 33px;
+  background: #fff;
+  font-size: medium;
+  cursor: pointer;
+  margin: 0 20px;
+}

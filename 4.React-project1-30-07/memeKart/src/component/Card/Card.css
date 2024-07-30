@@ -1,0 +1,48 @@
+.card-img {
+  height: 300px;
+  object-fit: contain;
+}
+
+.card-wrapper {
+  width: 300px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+
+  border: 2px solid #555;
+  padding: 20px;
+
+  box-shadow: 5px 5px 10px #555;
+}
+
+.card-text {
+  font-size: 30px;
+  color: dodgerblue;
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-up {
+  width: 70px;
+  height: 40px;
+  background-color: yellow;
+  font-size: x-large;
+  font-weight: bold;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-Aname {
+  font-size: large;
+  font-weight: bold;
+  color: dodgerblue;
+}
