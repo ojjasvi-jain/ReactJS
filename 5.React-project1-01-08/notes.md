@@ -1,6 +1,6 @@
-## How to quickly website
+## How to quickly host website on netlify
 
-follow this steps https://medium.com/swlh/the-easiest-way-to-deploy-a-react-app-c7e613035822
+- follow this steps https://medium.com/swlh/the-easiest-way-to-deploy-a-react-app-c7e613035822
 
 ## Why do we need a `useEffect Hook`
 
