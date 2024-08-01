@@ -1,0 +1,41 @@
+.sh-container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 350px;
+  gap: 40px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #eaeaf4;
+}
+
+.sh-card {
+  width: 250px;
+  height: 60%;
+  background-color: #eaeaf4;
+}
+
+.sh-textcont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sh-auth {
+  width: 100px;
+  height: 25px;
+  background-color: #eaeaf4;
+}
+
+.sh-up {
+  width: 90px;
+  height: 30px;
+  background-color: #eaeaf4;
+  border-radius: 20px;
+}
+
+.sh-cardcont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,25 @@
+.nav-logo {
+  width: 100px;
+}
+
+.nax-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  padding: 0 25px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 900;
+  color: #555;
+}
+
+.active {
+  color: black;
+}
